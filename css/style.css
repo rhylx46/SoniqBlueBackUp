@@ -1,0 +1,143 @@
+body {
+    margin: 0 auto;
+    max-width: 960px;
+    font-size: 14px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.banner {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.tagline {
+    text-align: center;
+    margin: 65px auto;
+}
+
+.tagline h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.textContent p {
+    font-size: 1.25em;
+}
+
+.textContent h3 {
+    text-align: center;
+    font-size: 27px;
+    margin: 80px auto 40px auto;
+}
+
+form p {
+    font-weight: 600;
+}
+
+input {
+    width: 452px;
+    height: 45px;
+    margin-bottom: 30px;
+    background: #ddf2fa;
+    border: 1px solid darkgray;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+    padding: 0 8px;
+}
+
+i {
+    color: red;
+}
+
+textarea {
+    background: #ddf2fa;
+    border: 1px solid darkgray;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+    padding: 20px 8px;
+}
+
+button {
+    width: 100px;
+    height: 45px;
+    border-radius: 5%;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+    background: #22abe3;
+    color: #ddf2fa;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 30px 0 40px 0;
+}
+
+.center {
+    padding-left: 45%;
+}
+
+.center2 {
+    padding-left: 35%;
+}
+
+#success {
+    padding-left: 0;
+}
+
+::placeholder {
+    color: #a2a2a2;
+    padding: 0 0 0 7px;
+}
+
+@media (max-width:992px) {
+    .left {
+        margin: 0 10px;
+        float: none;
+    }
+
+    .right {
+        margin: 0 10px;
+        float: none;
+    }
+
+    input {
+        width: 95%;
+    }
+
+    textarea {
+        width: 95%;
+    }
+
+    .center {
+        padding-left: 35%;
+    }
+
+    .center2 {
+        padding-left: 1%;
+    }
+    
+    .logo {
+        width: 70%;
+    }
+
+    .tagline h2 {
+        font-size: 30px;
+        padding: 0 5px;
+    }
+    
+    .textContent p {
+        font-size: 1.1em;
+        padding: 0 10px;
+    }
+
+    .textContent h3 {
+        font-size: 21px;
+    }
+
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Generator Design -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Soniqblue Beverage</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="banner">
+            <img src="image/logo.png" alt="logo" class="logo">
+        </div>
+        <div class="tagline">
+            <h2>Launching Soon</h2>
+        </div>
+        <div class="textContent">
+            <p>
+                Soniqblue Beverage Company is committed to creating world class craft beverages, both alcoholic &
+                non-alcoholic made with the finest ethically sourced natural ingredients.<br><br>
+
+                Our commitment is to provide products that inspire and exceed the expectations of our customers. We will
+                work to create an environment that is inclusive and fosters rewarding business opportunities and benefits
+                for our suppliers, distributors and communities.
+            </p>
+            <h3>Contact us for more details about SoniqBlue</h3>
+        </div>
+        <form name="sentMessage" id="contactForm">
+        
+                <p class="left">First Name<i>*</i><br><br>
+                    <input type="text" name="fname" id="fname" required />
+                </p>
+                <p class="right">Last Name<i>*</i><br><br>
+                    <input type="text" name="lname" id="lname" required />
+                </p>
+                <p class="left">Email<i>*</i><br><br>
+                    <input type="email" name="email" id="email" placeholder="default@example.com" required />
+                </p>
+                <p class="left">
+                    Message<i>*</i><br><br>
+                    <textarea name="message" id="message" cols="127" rows="20" placeholder="Please leave us a message" required></textarea>
+                </p>
+                <div class="left alert">
+                    <div id="success"></div><br>
+                    <div id="g-recaptcha-error"></div>
+                </div>
+                <div class="g-recaptcha left center2" data-sitekey="6Lf489gjAAAAABxxdB_RsPueKgDLCL4Tkw-Ho0S6" style="margin-top: 30px;"></div>
+                <div class="left center">
+                    <button type="submit">Submit</button>
+                </div>
+        </form>
+        <br><br>
+        <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+        <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <script type="text/javascript" src="js/contact_me.js"></script>
+    </body>
+
+</html>
